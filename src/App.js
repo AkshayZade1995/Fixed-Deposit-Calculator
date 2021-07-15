@@ -1,6 +1,7 @@
 //import logo from './logo.svg';
 import './App.css';
 import React, { useState } from "react";
+//import NumericInput from 'react-numeric-input';
 
 function App() {
 
@@ -44,7 +45,8 @@ function App() {
         <div>
           <h3>Rate Of Interest</h3>
           <input
-            type="text"
+            type="number"
+            step="0.1"
             value={interest}
             onChange={e => setInterest(+e.target.value)}
             placeholder="0"
