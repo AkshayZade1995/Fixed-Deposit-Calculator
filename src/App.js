@@ -35,7 +35,7 @@ function App() {
         <div>
           <h3>Principal</h3>
           <input
-            type="text"
+            type="number"
             value={fdamount}
             onChange={e => setFdAmount(+e.target.value)}
             placeholder="0"
@@ -56,7 +56,7 @@ function App() {
         <div>
           <h3>Period of deposit (Months)</h3>
           <input
-            type="text"
+            type="number"
             value={period}
             onChange={e => setPeriod(+e.target.value)}
             placeholder="0"
