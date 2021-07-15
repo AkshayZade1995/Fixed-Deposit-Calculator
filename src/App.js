@@ -38,7 +38,6 @@ function App() {
             type="number"
             value={fdamount}
             onChange={e => setFdAmount(+e.target.value)}
-            placeholder="0"
           />
         </div>
         
@@ -49,7 +48,6 @@ function App() {
             step="0.1"
             value={interest}
             onChange={e => setInterest(+e.target.value)}
-            placeholder="0"
           />
         </div>
 
@@ -59,7 +57,6 @@ function App() {
             type="number"
             value={period}
             onChange={e => setPeriod(+e.target.value)}
-            placeholder="0"
           />
         </div>
       </div>
